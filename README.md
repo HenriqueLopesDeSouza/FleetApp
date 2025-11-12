@@ -39,7 +39,7 @@ dotnet run --project src/FleetApp.Api
 
 # 7. Run all tests
 dotnet test FleetApp.sln
-
+```
 
 ###  Running with Docker
 
