@@ -1,4 +1,8 @@
-# FleetApp
+#  🚗  FleetApp
+![.NET 8](https://img.shields.io/badge/.NET-8.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+
 
 ### FleetApp is a .NET 8 minimal API designed to manage a fleet of vehicles, It follows Clean Architecture principles with clear separation of layers, robust validation, and full unit and integration test coverage.
 
