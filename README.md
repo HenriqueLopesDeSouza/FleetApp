@@ -10,6 +10,8 @@
 ### Docker Desktop
 ### Visual Studio 2022 or VS Code
 
-# 🚀 Running Locally (without Docker)
-## 1 - Clone the repository
-## 
+## 🚀 Running Locally (without Docker)
+#### 🧭 1) Clone the repository
+```bash
+git clone https://github.com/HenriqueLopesDeSouza/FleetApp.git
+cd FleetApp        # go to the project root, where FleetApp.sln is located
