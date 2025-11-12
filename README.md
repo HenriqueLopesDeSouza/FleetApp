@@ -27,7 +27,7 @@ You can run FleetApp locally using the .NET SDK for development and debugging.
 If you prefer to use Docker instead, check the section ** Running with Docker** below.
 
 > **Requirements:**  
-> - [.NET 8 SDK](https://dotnet.microsoft.com/download) installed  
+> - [.NET 8 SDK](https://dotnet.microsoft.com/pt-br/download/dotnet/8.0) installed  
 > - (Optional) Visual Studio 2022 or VS Code  
 
 ---
