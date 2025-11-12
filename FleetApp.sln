@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{00C0D0E8-8B20-4BD0-B253-7CD01E80C83B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetApp.Api", "src\FleetApp.Api\FleetApp.Api.csproj", "{444D69CB-02EB-013D-F0F8-CE54B52C84EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetApp.Core", "src\FleetApp.Core\FleetApp.Core.csproj", "{DCB3E039-0F9A-C40F-2BAC-5B0D643F301A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetApp.Infrastructure", "src\FleetApp.Infrastructure\FleetApp.Infrastructure.csproj", "{C293CB92-2281-7024-5906-2FA4D863EE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetApp.Application", "src\FleetApp.Application\FleetApp.Application.csproj", "{84AEACAE-D726-2FB9-52E9-BE26EDE30795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetApp.Tests", "tests\FleetApp.Tests\FleetApp.Tests.csproj", "{505A4DCE-0429-DBFE-B35F-6CDC932D6399}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{444D69CB-02EB-013D-F0F8-CE54B52C84EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444D69CB-02EB-013D-F0F8-CE54B52C84EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444D69CB-02EB-013D-F0F8-CE54B52C84EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444D69CB-02EB-013D-F0F8-CE54B52C84EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB3E039-0F9A-C40F-2BAC-5B0D643F301A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB3E039-0F9A-C40F-2BAC-5B0D643F301A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB3E039-0F9A-C40F-2BAC-5B0D643F301A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB3E039-0F9A-C40F-2BAC-5B0D643F301A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C293CB92-2281-7024-5906-2FA4D863EE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C293CB92-2281-7024-5906-2FA4D863EE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C293CB92-2281-7024-5906-2FA4D863EE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C293CB92-2281-7024-5906-2FA4D863EE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AEACAE-D726-2FB9-52E9-BE26EDE30795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AEACAE-D726-2FB9-52E9-BE26EDE30795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AEACAE-D726-2FB9-52E9-BE26EDE30795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AEACAE-D726-2FB9-52E9-BE26EDE30795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505A4DCE-0429-DBFE-B35F-6CDC932D6399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505A4DCE-0429-DBFE-B35F-6CDC932D6399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505A4DCE-0429-DBFE-B35F-6CDC932D6399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505A4DCE-0429-DBFE-B35F-6CDC932D6399}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{444D69CB-02EB-013D-F0F8-CE54B52C84EC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DCB3E039-0F9A-C40F-2BAC-5B0D643F301A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C293CB92-2281-7024-5906-2FA4D863EE45} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{84AEACAE-D726-2FB9-52E9-BE26EDE30795} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{505A4DCE-0429-DBFE-B35F-6CDC932D6399} = {00C0D0E8-8B20-4BD0-B253-7CD01E80C83B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C443A380-A23D-479E-8898-40CB13DF52D1}
+	EndGlobalSection
+EndGlobal
