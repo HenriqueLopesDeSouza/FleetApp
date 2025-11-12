@@ -40,3 +40,31 @@ dotnet run --project src/FleetApp.Api
 # 7. Run all tests
 dotnet test FleetApp.sln
 
+
+###  Running with Docker
+
+FleetApp includes full Docker support for running the API inside a containerized environment.  
+This is the recommended way to run the application, since it does **not require the .NET SDK** to be installed on your machine.
+
+> **Requirements:**  
+> - [Docker Desktop](https://www.docker.com/) installed and running
+
+---
+
+####  Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/HenriqueLopesDeSouza/FleetApp.git
+cd FleetApp            # go to the project root, where docker-compose.yml is located
+
+# 2. Build and start the containers
+docker-compose up --build
+
+# 3. (Optional) Run in detached mode (background)
+docker-compose up -d --build
+
+# 4. Stop the containers
+docker-compose down
+
+
