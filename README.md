@@ -67,4 +67,10 @@ docker-compose up -d --build
 # 4. Stop the containers
 docker-compose down
 
+```
+
+### Access the application
+
+Once Docker finishes building and starts the container, open your browser at:
+http://localhost:8080/swagger
 
