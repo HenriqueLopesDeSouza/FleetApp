@@ -38,23 +38,31 @@ If you prefer to use Docker instead, check the section ** Running with Docker** 
 # 1. Clone the repository
 git clone https://github.com/HenriqueLopesDeSouza/FleetApp.git
 cd FleetApp            # go to the project root, where FleetApp.sln is located
-
+```
+```bash
 # 2. Restore and build the entire solution
 dotnet restore FleetApp.sln
 dotnet build   FleetApp.sln
-
+```
+```bash
 # 3. (Optional) Trust HTTPS certificate if you want to use HTTPS
 dotnet dev-certs https --trust
+```
 
+```bash
 # 4. Run the API (simplest way - HTTP only)
 dotnet run --project src/FleetApp.Api --no-launch-profile --urls http://localhost:8080
-
+```
+```bash
 # 5. Open your browser at:
 # http://localhost:8080/swagger
+```
 
+```bash
 # 6. (Optional) To run with HTTPS profile
 dotnet run --project src/FleetApp.Api
-
+```
+```bash
 # 7. Run all tests
 dotnet test FleetApp.sln
 ```
