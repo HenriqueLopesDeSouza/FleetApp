@@ -6,8 +6,22 @@
 
 ### FleetApp is a .NET 8 minimal API designed to manage a fleet of vehicles, It follows Clean Architecture principles with clear separation of layers, robust validation, and full unit and integration test coverage.
 
+### 🧰 Technologies Used
 
-### Running Locally (without Docker)
+- 🧱 **.NET 8 Minimal API** — lightweight and fast web API framework  
+- ✅ **FluentValidation** — for input and business rule validation  
+- 🪵 **Serilog** — structured logging (console and file)  
+- 📘 **Swagger / Swashbuckle** — OpenAPI documentation  
+- 🧩 **xUnit + Moq + FluentAssertions** — testing stack  
+- 🐳 **Docker & Docker Compose** — containerization support  
+- 🧼 **Clean Architecture** — modular design with clear separation of layers  
+- 💾 **In-memory data store** — no database required for running or testing
+
+### 🧱 Project Structure
+<img width="256" height="177" alt="image" src="https://github.com/user-attachments/assets/149a24ab-a445-4c7c-802b-371912325b2f" />
+
+
+### 🖥️  Running Locally (without Docker)
 
 You can run FleetApp locally using the .NET SDK for development and debugging.  
 If you prefer to use Docker instead, check the section ** Running with Docker** below.
@@ -45,7 +59,7 @@ dotnet run --project src/FleetApp.Api
 dotnet test FleetApp.sln
 ```
 
-###  Running with Docker
+### 🐳 Running with Docker
 
 FleetApp includes full Docker support for running the API inside a containerized environment.  
 This is the recommended way to run the application, since it does **not require the .NET SDK** to be installed on your machine.
