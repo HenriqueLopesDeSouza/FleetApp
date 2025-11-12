@@ -94,5 +94,5 @@ http://localhost:8080/swagger
 
 ---
 Developed by **Henrique Lopes de Souza**  
-📫 [LinkedIn](https://www.linkedin.com/in/henriquelopesdesouza) • [GitHub](https://github.com/HenriqueLopesDeSouza)
+📫 [LinkedIn](https://www.linkedin.com/in/henrique-lopes-de-souza) • [GitHub](https://github.com/HenriqueLopesDeSouza)
 
