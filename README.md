@@ -83,16 +83,20 @@ This is the recommended way to run the application, since it does **not require 
 # 1. Clone the repository
 git clone https://github.com/HenriqueLopesDeSouza/FleetApp.git
 cd FleetApp            # go to the project root, where docker-compose.yml is located
+```
 
+```bash
 # 2. Build and start the containers
 docker-compose up --build
+```
 
+```bash
 # 3. (Optional) Run in detached mode (background)
 docker-compose up -d --build
-
+```
+```bash
 # 4. Stop the containers
 docker-compose down
-
 ```
 
 ### Access the application
