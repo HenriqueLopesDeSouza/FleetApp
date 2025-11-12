@@ -92,3 +92,7 @@ docker-compose down
 Once Docker finishes building and starts the container, open your browser at:
 http://localhost:8080/swagger
 
+---
+Developed by **Henrique Lopes de Souza**  
+📫 [LinkedIn](https://www.linkedin.com/in/henriquelopesdesouza) • [GitHub](https://github.com/HenriqueLopesDeSouza)
+
